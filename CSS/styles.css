@@ -1,0 +1,79 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+    margin-bottom: 40px;
+}
+
+h1{
+    margin: 40px 175px;
+    color: palevioletred;
+}
+
+p{
+font-style: italic;
+font-weight: 900;
+}
+
+.questions, .answers {
+    margin: 30px 150px;
+}
+
+.imgCode{
+    width:25vw;
+    margin:22px auto;
+    border: 1px  solid gainsboro;
+    border-radius: 10px;
+}
+
+.imgAns{
+ width:200px;
+ margin:22px auto;
+}
+
+.answer-link{
+    font-weight: bold;
+    margin-left:190px;
+    text-decoration: none;
+    border: 1px solid palevioletred;
+    background-color: bisque;
+    border-radius: 10px;
+    padding:7px;
+
+}
+
+.answer-link2{
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid palevioletred;
+    background-color: bisque;
+    border-radius: 10px;
+    padding:7px;
+
+}
+
+.answer-link:hover , .answer-link2:hover{
+    color:crimson;
+    
+}
+
+
+@media only screen and (max-width: 650px) {
+    *{
+     margin-bottom: 15px;
+    }
+    .questions, .answers {
+        margin: 0;
+    }
+    h1{
+        margin:0;
+        padding:20px 0px;
+    }
+
+    .imgCode{
+        width:400px
+    }
+
+     .answer-link{
+        margin-left: 55px;
+     }
+  }
+
